@@ -12,10 +12,7 @@ FetchContent_Declare(
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
-
 # Find gtest
-find_package(GTest REQUIRED)
-include_directories( ${GTEST_INCLUDE_DIRS} )
 enable_testing()
 
 # Find POSIX threads for UNIX
