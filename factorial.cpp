@@ -1,4 +1,4 @@
-#include "factorial.h"
+#include "factorial.hpp"
 
 int factorial(int n)
 {
